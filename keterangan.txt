@@ -1,0 +1,5 @@
+### Pilihan menu Choice
+ada di menu screen
+
+define gui.namebox_width = 290
+ada di gui untuk namebox

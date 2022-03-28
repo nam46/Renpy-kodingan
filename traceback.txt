@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/sdkelas2.rpy", line 48, in script
+    jump stage7
+ScriptError: could not find label 'stage7'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/sdkelas2.rpy", line 48, in script
+    jump stage7
+  File "renpy/ast.py", line 1757, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'stage7'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Petualangan Si Tika Ren'py 7.4
+Sat Mar 26 15:04:02 2022
